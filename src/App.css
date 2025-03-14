@@ -1,0 +1,67 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.app-header h1 {
+  color: #4a148c;
+  margin-bottom: 8px;
+  font-size: 2.5rem;
+}
+
+.app-header p {
+  color: #616161;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.app-main {
+  margin-bottom: 40px;
+}
+
+.active-filters {
+  background-color: #e8f5e9;
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.active-filters h3 {
+  margin-top: 0;
+  color: #2e7d32;
+  font-size: 1.1rem;
+}
+
+.active-filters ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.active-filters li {
+  background-color: #c8e6c9;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.app-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  color: #757575;
+  font-size: 0.9rem;
+}

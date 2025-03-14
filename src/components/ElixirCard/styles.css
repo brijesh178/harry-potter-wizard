@@ -1,0 +1,56 @@
+.elixir-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.elixir-title {
+  background-color: #673ab7;
+  color: white;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.elixir-details {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.detail-value {
+  color: #333;
+}
+
+.ingredients-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
